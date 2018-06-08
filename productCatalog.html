@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<script src="library.js"></script>
+  </head>
+  <body>
+    <div id="search">
+      <h2>Search Product by ID</h2>
+      <input id="inputID">
+      <button id="inputIDButton">Search Product</button>
+	   <h2>Search Product by Type</h2>
+      <input id="inputType">
+      <button id="inputTypeButton">Search Type</button>
+	   <h2>Search Product by Price</h2>
+      <input id="inputPrice">
+      <button id="inputPriceButton">Search Price</button>
+    </div>
+    <hr>
+    <div id="examined">
+      <h2>Examined Product</h2>
+      <p id="productText">Product ID: <br>Price: <br> Type: </p>
+	  <hr>
+	  <h2>List of Similar Products</h2>
+	  <table id="similarTable" width="300px" border="1">
+		<tr>
+			<th>ProductID</th>
+			<th>Type</th>
+			<th>Price</th>
+			<th>Examine</th>
+		</tr>
+	   </table>
+    </div>
+	<div id="allProducts">
+      <h2>List of All products</h2>
+	  <table id="allTable" width="300px" border="1">
+		<tr>
+			<th>Product ID</th>
+			<th>Type</th>
+			<th>Price</th>
+			<th>Examine</th>
+		</tr>
+	   </table>
+    </div>
+	<script src="productCatalog.js"></script>
+  </body>
+</html>
